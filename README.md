@@ -1,19 +1,13 @@
-using System;
- 
-namespace MyApp
 {
-class Program
-{
-static void Main(string[] args)
-{
-Calculator calc = new Calculator();
- 
-Console.WriteLine($"Add: {calc.Add(10, 5)}");
-Console.WriteLine($"Subtract: {calc.Subtract(10, 5)}");
-Console.WriteLine($"Multiply: {calc.Multiply(10, 5)}");
-Console.WriteLine($"Divide: {calc.Divide(10, 5)}");
- 
-Console.ReadKey();
+  "name": "vulnerable-snyk-demo",
+  "version": "1.0.0",
+  "description": "A demo project to test Snyk vulnerability scanning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.4"
+  }
 }
-}
-}
+
